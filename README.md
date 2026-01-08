@@ -31,6 +31,7 @@ All data is synthetic and created solely for demonstration purposes.
 Detection logic is implemented in:
 - `sql/detection_queries.sql` (aggregation, coordination signals)
 - `analysis/investigation_walkthrough.py` (Python-based filtering and analysis)
+The resulting candidate review queue is available in `outputs/review_queue.csv`.
 
 ### Quickstart (Python)
 Run the investigation script to surface candidate accounts for review:
