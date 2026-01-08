@@ -32,6 +32,16 @@ Detection logic is implemented in:
 - `sql/detection_queries.sql` (aggregation, coordination signals)
 - `analysis/investigation_walkthrough.py` (Python-based filtering and analysis)
 
+### Quickstart (Python)
+Run the investigation script to surface candidate accounts for review:
+
+```bash
+python analysis/investigation_walkthrough.py
+
+## Expected output:
+A table of candidate accounts flagged for review based on high-velocity scam activity, shared infrastructure signals, and evasion indicators.
+
+
 ## Key Insight
 Several scam accounts exhibit strong behavioral and infrastructure signals without corresponding user reports, highlighting a detection gap that requires proactive monitoring rather than reactive enforcement.
 
