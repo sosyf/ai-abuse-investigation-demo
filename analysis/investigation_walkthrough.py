@@ -1,3 +1,14 @@
+"""
+Investigation walkthrough:
+- Load synthetic abuse telemetry
+- Identify high-velocity scam behavior
+- Surface coordinated abuse candidates for review
+
+This script demonstrates how investigative insights
+can be translated into detection logic for abuse monitoring.
+"""
+
+
 import pandas as pd
 
 df = pd.read_csv("data/scam_events.csv")
